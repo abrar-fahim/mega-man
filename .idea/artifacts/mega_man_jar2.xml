@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mega-man:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/mega_man_jar2</output-path>
+    <root id="archive" name="mega-man.jar">
+      <element id="module-output" name="mega-man" />
+    </root>
+  </artifact>
+</component>
