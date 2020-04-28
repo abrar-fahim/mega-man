@@ -1,6 +1,8 @@
 # Mega Man
 A simple and fun retro-style multiplayer 2D shooting game made with Java-FX and mega man sprites
 
+![Game Start](Images/begin.png)
+
 
 Working code found in /src/sample directory. 
 
