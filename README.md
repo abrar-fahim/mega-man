@@ -4,11 +4,11 @@ A simple and fun retro-style multiplayer 2D shooting game made with Java-FX and 
 ![Game Start](Images/begin.png)
 
 
-Working code found in /src/sample directory. 
+**Working code found in /src/sample directory.**
 
-Other folders in /src directory contain .png sprites and a single folder contains game sounds. 
+**Other folders in /src directory contain .png sprites and a single folder contains game sounds.** 
 
-Game sounds are deactivated in the latest release
+*Game sounds are deactivated in the latest release*
 
 ## Running the Game on your machine
 The Working JAR executable files are found in [JAR_Executables Folder](JAR_Executables/)
