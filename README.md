@@ -6,8 +6,8 @@ A simple and fun retro-style multiplayer 2D shooting game made entirely from scr
 
 **Working code for the entire project is in [src/sample directory](src/sample/).**
 
-**Code for Client(Game) is in [src/sample/Game.java](src/sample/Game.java)**
-**Code for Server is in [src/sample/Server.java](src/sample/Server.java)**
+* **Code for Client(Game) is in [src/sample/Game.java](src/sample/Game.java)**
+* **Code for Server is in [src/sample/Server.java](src/sample/Server.java)**
 
 
 **Other folders in /src directory contain .png sprites and a single folder contains game sounds.** 
