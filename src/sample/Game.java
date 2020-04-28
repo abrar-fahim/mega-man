@@ -88,7 +88,7 @@ public class Game extends Application {
         opponent.setOpponent(player);
         player.setOpponent(opponent);
 
-        client = new Client(this);
+        //client = new Client(this, name.toString());
 
         Group root = new Group();
         theScene = new Scene(root);
@@ -96,8 +96,8 @@ public class Game extends Application {
         theStage.setTitle("Mega");
         Canvas canvas = new Canvas(WIN_WIDTH, WIN_HEIGHT);
 
-        name = new TextField("No Name");
-        nameButton = new Button("set name");
+        name = new TextField("127.0.0.1");
+        nameButton = new Button("Enter Server IP Address");
 
         name.setLayoutX(500 - 85);
         name.setLayoutY(300);
@@ -111,8 +111,10 @@ public class Game extends Application {
         nameButton.setOnAction(e -> {
             username = name.getText();
             System.out.println(username);
+            client = new Client(this, username);
             root.getChildren().removeAll(name, nameButton);
             gameState=1;
+            username = "";
         });
 
 
@@ -218,11 +220,11 @@ public class Game extends Application {
 
             }
             if(playWin && playOnlyOnce == 0) {
-                score.stop();
+                //score.stop();
                 //new Sound(winSoundPath, 3);
                 playOnlyOnce++;
             } else if(playLose && playOnlyOnce == 0) {
-                score.stop();
+                //score.stop();
                 //new Sound(loseSoundPath, 3);
                 playOnlyOnce++;
             }
