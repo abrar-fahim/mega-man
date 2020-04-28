@@ -23,15 +23,28 @@ There are three files in the JAR_Executables Folder](JAR_Executables/).
 2. [The mega-man-client-1 file](JAR_Executables/mega-man-client-1.jar) and [The mega-man-client-2 file](JAR_Executables/mega-man-client-2.jar) are identical. The files are seperate to make running the same client code twice easier in some machines. 
 Run both the files in turn.
 3.The client game files when run will ask for Server IP address (Defaults to 127.0.0.1) Use the default IP address if the server is running in the same machine as the client game file. If not, enter the machine's IP address where the server is running here. Then click ready.
+[!Enter Server's IP address here](Images/ip_address)
 4. Do the same for the other client game file. 
 5. Intro plays and the game starts. Enjoy!
 
 ### Controls
 * Press the arrow keys to move around ("Up" Arrow key to jump)
 * Press the "x" key to shoot fire bullets
-* Press the "z" key to attack with your glorious sword
+* Press the "c" key to attack with your glorious sword
+
+### Gameplay
+![Shooting](Images/red_shoot)
+![Sword Strike](Images/blue_slash)
+![Jumping](Images/red_jump_slash)
+
+* Going to the bubble on the top left of the screen gives the player a shield, rendering them immune to attacks for a limited time
+* Going to the plus sign on the top right gives the player extra health
+* Health of each player regenerates slowly with time
+* Bullets run out and regenerate slowly over time
+
 
 ### Post-Game
+![Dead](Images/dead)
 * Once someone is dead, Clicking on the Restart button on both clients restarts the game!
 
 
