@@ -29,5 +29,8 @@ Run both the files in turn.
 * Press the "x" key to shoot fire bullets
 * Press the "z" key to attack with your glorious sword
 
+### Post-Game
+* Once someone is dead, Clicking on the Restart button on both clients restarts the game!
+
 
 
